@@ -2,18 +2,18 @@
 
 1. yarn init -y
 2. https://www.apollographql.com/docs/apollo-server/
-   yarn add @apollo/server graphql
+   i. yarn add @apollo/server graphql
 3. yarn add typescript
 4. yarn add @types/node
 5. yarn add ts-node-dev
 6. yarn add -D nodemon
-7. package.json
-   "scripts": {
+7. package.json :
+   i. "scripts": {
    "dev": "nodemon --watch './\*_/_.ts' --exec ts-node src/index.ts"
    },
-   yarn dev
+8. yarn dev
 
-https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases-typescript-postgresql
+i. https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases-typescript-postgresql
 npx tsc --init
 tsconfig.json
 ctrl+f (root)
@@ -33,7 +33,7 @@ yarn add dotenv
 
 JWT_SIGN
 
-write a schema file(npx prisma migrate dev
+write a schema file(npx prisma migrate dev)
 
 token: String! ! means mandatory
 User create
